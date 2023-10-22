@@ -100,6 +100,9 @@ body {
     padding: 15px;
 }
 
+.imagen {
+    text-align: center;
+}
 .shadow {
     box-shadow: 0 0 20px gainsboro;
     border-radius: 10px;
@@ -169,8 +172,8 @@ a {
 }
 .text-red {
     color: red;
-    font-size: 30px;
-    background-color: cyan;
+    font-size: 15px;
+    background-color: rgb(255, 225, 0);
 }
 footer h1 {
     border-bottom-left-radius: 10px;
@@ -204,25 +207,25 @@ h1 {
 .text-subr {
     text-decoration: underline;
 }
-#listaoc ol {
+#lista1 ol {
     list-style-type: upper-alpha;
 }
-#listaoc ol ol {
+#lista1 ol ol {
     list-style-type: upper-roman;
 }
-#listaotc ol {
+#lista2 ol {
     list-style-type: lower-alpha;
 }
-#listaotc ol ol {
+#lista2 ol ol {
     list-style-type: lower-roman;
 }
-#listaotc ol ol ol {
+#lista2 ol ol ol {
     list-style-type: upper-roman;
 }
-#listadtc ul ul {
+#lista3 ul ul {
     list-style-image: url(../img/corazon.png);
 }
-#listadtc ul ul ul{
+#lista3 ul ul ul{
     list-style-image: none;
     list-style-type: square;
 }
@@ -236,11 +239,11 @@ dd {
     padding: 10px 0;
 }
 table.tcenter {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 table.tcenter th{
-    background-color: rgb(2, 2, 63);
+    background-color: rgb(88, 129, 87);
     color: white;
     font-size: 22px;
 }
@@ -249,13 +252,13 @@ table.tcenter td{
     font-size: 18px;
 }
 table.tstriped tr:nth-child(odd){
-    background-color: aquamarine;  
+    background-color: rgb(163, 177, 138);  
 }
 table.tstriped tr:nth-child(even){
-    background-color: rgb(207, 220, 248);  
+    background-color: rgb(218, 215, 205);  
 }
 table.tborder, table.tborder td {
-    border: solid 1px gray;
+    border: solid 1px grey;
 }
 
 table.horario {
@@ -319,16 +322,16 @@ form.form-html5 {
 
 form.form-html5 fieldset {
     padding: 0 30px;
-    background-color: #e2fafa;
+    background-color: rgb(218, 215, 205);
 }
 form.form-html5 legend {
-    background-color: rgb(10, 3, 70);
+    background-color: rgb(58, 90, 64);
     color: white;
     padding: 8px;
     font-size: 20px;
 }
 form.form-html5 label {
-    background-color: rgb(102, 72, 207);
+    background-color: rgb(88, 129, 87);
     color: white;
 }
 .cb {
@@ -341,11 +344,11 @@ form.form-html5 label {
     font-size: 15px;
 }
 .btn-red {
-    background-color: rgb(78, 6, 6);
+    background-color: rgb(58, 90, 64);
     color: white;
 }
 .btn-blue {
-    background-color: rgb(22, 3, 68);
+    background-color: rgb(58, 90, 64);
     color: white;
 }
 

@@ -12,7 +12,7 @@
     <div class="container shadow">
         <header>
             <div class="row align-items-center">
-                <div class="col-3"><img src="img/logopaulap.png" alt="logo" width="250"></div>
+                <div class="col-3"><img src="img/logopaulap.png" alt="logo" width="200" height="75"></div>
                 <div class="col-9">
                     <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
                     <nav id="menu">
@@ -56,6 +56,8 @@
                     </nav>
                 </div>
             </div>
+
+
         </header>
         <main class="shadow">
             <div class="px-3">
@@ -65,22 +67,23 @@
                 <hr>
             </div>
             <div class="p-3">
-                <div id="multimedia">
-                    <h1 class="text-center">MULTIMEDIA</h1>
-                    <div>
-                        <h3>Video</h3>
-                        <video controls autoplay>
-                            <source src="movie.mp4" type="video/mp4">
-                            <source src="movie.ogg" type="video/ogg">
-                        </video>
-                        <h3>Audio</h3>
-                        <audio controls>
-                            <source src=".ogg" type="audio/ogg">
-                            <source src=".mp3" type="audio/mpeg">
-                        </audio>
-                    </div>
+                <div id="multimedia" class="py-3">
+                    <h2 class="text-center">MULTIMEDIA</h2>
+                    <h3>Video:</h3>
+                    <video autoplay controls width="100%">
+                        <source src="resources/videoToledo.mp4" type="video/mp4">
+                        <source src="resources/videoToledo.ogg" type="video/ogg">
+                    </video>
+                    <h3>Audio:</h3>
+                    <audio controls>
+                        <source src="resources/videoHablando.mp3" type="audio/mp3">
+                        <source src="resources/videoHablando.wav" type="audio/wav">
+                    </audio>
+                    <h3>Video mediante iframe:</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vxlAlZFtjh8?si=S9bU9yklKon380bA" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-
             </div>
         </main>
         <footer>
