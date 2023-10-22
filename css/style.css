@@ -132,7 +132,7 @@ nav li a {
 }
 
 nav li:hover {
-    background-color:  rgb(57, 223, 107);
+    background-color:  rgb(132, 169, 140);
 }
 
 .text-right{
@@ -155,11 +155,11 @@ a {
     padding: 16px;
 }
 
-.bg-rosa-o {
-    background-color: rgb(193, 17, 61);
+.bg-verde-o {
+    background-color: rgb(53, 79, 82);
 }
 .bg-azul-c {
-    background-color: rgb(240, 249, 252);
+    background-color: rgb(202, 210, 197);
 }
 .bg-orange {
     background-color: orange;
